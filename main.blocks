@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Pfjy[vlane{n6TF.#,T}" x="0" y="0"><statement name="HANDLER"><block type="actuator_keyborad_pin" id="qI:J:RfP)%WU95WWGUGj"><field name="SDO">DigitalPin.P2</field><field name="SCL">DigitalPin.P8</field></block></statement></block><block type="device_forever" id="RlWdo=gY2C.UP,fuAL6P" x="2" y="133"><statement name="HANDLER"><block type="controls_if" id="[YZ?1shZf:*l*~+D1$OO"><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="2^:Gkvl2PVGy_836N9=`"><field name="OP">EQ</field><value name="A"><shadow type="text"><field name="TEXT"></field></shadow><block type="actuator_keyborad_read" id="2!1#?AQc~.*Tn?ikcFfY"></block></value><value name="B"><shadow type="text" id="Yr`CUye!RHwW2GZiOZ8o"><field name="TEXT">*</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="$B4]JbCv}Sm4,uZ4V`cJ"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="NbSjwTwnRCot+r^*U;L6"><field name="OP">EQ</field><value name="A"><shadow type="text"><field name="TEXT"></field></shadow><block type="actuator_keyborad_read" id="apPOTaVrDR2^vjBYc_8T"></block></value><value name="B"><shadow type="text" id="olj`6Ka%uMtj+vc:3Jh3"><field name="TEXT">#</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="mu-E.XcJ?W0vlFjUZ;L`"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        . # . # . 
+        # # # # # 
+        . # . # .
+        `</field></block></statement></block></statement></block></xml>
